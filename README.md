@@ -72,7 +72,7 @@ MYSQL_DB=funobotz_db
 
 ```bash
 # 1. Start the FastAPI server
-python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8001 --reload
 
 # 2. Run all automated tests
 python -m pytest backend/tests/ -v
