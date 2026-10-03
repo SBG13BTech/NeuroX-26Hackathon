@@ -1,0 +1,38 @@
+# Environment variables and secrets (CRITICAL)
+.env
+*.env
+!*.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+backend/app/data/funobotz_fallback.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor caches
+.vscode/
+.idea/
+*.swp
+*.swo
